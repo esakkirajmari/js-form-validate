@@ -55,6 +55,7 @@ function handleInput() {
   } else {
     setSuccessFor(confirmPassword);
   }
+  
   // Checking for Mobile Number
   if (mobileNumberValue === "") {
     setErrorFor(mobileNumber, "Mobile number cannot be blank");
